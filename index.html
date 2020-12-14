@@ -12,13 +12,22 @@
     <!-------------- WELCOME SCREEN --------------->
     <div class='screen' id='welcome-screen'>
         <h1>Welcome to the Star Wars Trivia Game!</h1>
-        <img src="star-wars.jpg" alt="Star Wars">
+        <img src="https://raw.githubusercontent.com/jiaxuanw1/jiaxuanw1.github.io/master/star-wars.jpg" alt="Star Wars">
         <h2>You can choose your category of question!</h2>
         <button class="start-btn">Start</button>
     </div>
 
+    <!-------------- CATEGORY SCREEN --------------->
+        <div class='screen' id='category-screen'>
+            <h1>Choose a category.</h1>
+            <div id="category-set">
+            </div>
+        </div>
+
     <!-------------- QUESTION SCREEN --------------->
     <div class='screen' id='question-screen'>
+    <h2 id="score">-</h2>
+    <h1 id="timer">-</h1>
     <h4 id="category">Category Name</h4>
     <h2 id="question">Question goes here?</h2>
     <div id="answer-set">
